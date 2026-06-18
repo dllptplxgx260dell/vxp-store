@@ -1,0 +1,20 @@
+html,body{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;background:#f2efe7;color:#211b14}a{color:#704c12}.top{background:#2b2118;color:#fff;padding:24px 28px;border-bottom:6px solid #d7a442}.top h1{margin:0;font-size:32px;letter-spacing:.5px}.top p{margin:6px 0 0;color:#ecdcbf}.wrap{max-width:1100px;margin:24px auto;padding:0 16px}.bar{background:#fff8ea;border:1px solid #d9c39c;padding:12px;margin-bottom:18px;box-shadow:2px 2px 0 #d7a442}.bar input,.bar select{font-size:16px;padding:8px;border:1px solid #b89a67;background:#fff;margin-right:8px}.grid{display:flex;flex-wrap:wrap;gap:14px}.card{width:235px;background:#fff;border:1px solid #cbb384;box-shadow:3px 3px 0 #d7a442;padding:13px}.card img{width:48px;height:48px;float:left;margin-right:11px;image-rendering:auto}.card h2{font-size:18px;margin:0 0 5px}.meta{font-size:12px;color:#6c5d46;margin-bottom:8px}.desc{clear:both;font-size:14px;min-height:48px}.btn{display:block;text-align:center;background:#7b4e13;color:#fff;text-decoration:none;padding:9px;margin-top:10px;border:1px solid #4e3009;font-weight:bold}.foot{font-size:12px;color:#6c5d46;margin:30px 0}.tiny{font-size:12px}.empty{padding:25px;background:#fff8ea;border:1px solid #d9c39c}@media(max-width:640px){.card{width:100%;}.top h1{font-size:24px}.bar input,.bar select{width:100%;box-sizing:border-box;margin:4px 0}}
+
+/* VXPstore grouped card style */
+.wrap{width:1230px!important;max-width:none!important;margin:auto!important}
+.bar{margin:22px 0 12px!important;overflow:hidden!important}
+.rightlinks{float:right!important;line-height:34px!important}
+.rightlinks a{margin-left:8px!important}
+.sep{color:#a45500!important;margin-left:8px!important;font-weight:bold!important}
+.grid{display:grid!important;grid-template-columns:repeat(6,195px)!important;gap:12px!important;justify-content:start!important;padding:0 0 14px!important}
+.card{width:175px!important;height:140px!important;min-height:0!important;background:#fff!important;border:1px solid #d99b24!important;border-right-width:2px!important;border-bottom-width:2px!important;padding:9px!important;position:relative!important;box-shadow:2px 2px 0 #e5e5e5!important;overflow:hidden!important}
+.card img{width:42px!important;height:42px!important;object-fit:contain!important;float:left!important;margin-right:8px!important;border:3px solid #d99b24!important;background:#e9c35a!important}
+.card h2{font-size:15px!important;line-height:17px!important;margin:0 0 2px!important;height:34px!important;overflow:hidden!important}
+.card .screen{font-size:14px!important;line-height:16px!important;font-weight:bold!important;font-style:italic!important;color:#111!important;text-decoration:none!important;position:static!important;text-align:left!important}
+.card .variants{clear:both!important;margin-top:4px!important;font-size:11px!important;line-height:13px!important;height:28px!important;overflow:hidden!important}
+.card .variants a{color:#111!important;text-decoration:none!important;font-style:italic!important}
+.card .variants a:hover{text-decoration:underline!important}
+.card .meta,.card .desc,.card .tiny{display:none!important}
+.card .btn{position:absolute!important;left:9px!important;right:9px!important;bottom:9px!important;height:32px!important;line-height:32px!important;text-align:center!important;background:#8b570e!important;color:white!important;text-decoration:none!important;font-weight:bold!important;border:1px solid #5d3908!important;font-size:14px!important}
+.foot{display:none!important}
+@media(max-width:1260px){.wrap{width:auto!important;margin:0 12px!important}.grid{grid-template-columns:repeat(auto-fill,195px)!important}}
